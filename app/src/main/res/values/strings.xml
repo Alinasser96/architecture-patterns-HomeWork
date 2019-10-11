@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Architecture Patterns Tutorials homework</string>
+    <string name="plus">+</string>
+    <string name="multi">*</string>
+    <string name="div">/</string>
+    <string name="two">2</string>
+    <string name="four">4</string>
+</resources>
