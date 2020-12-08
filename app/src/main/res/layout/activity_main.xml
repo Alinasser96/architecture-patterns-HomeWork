@@ -41,44 +41,44 @@
     <TextView
         android:id="@+id/mul_result_textView"
         android:layout_width="wrap_content"
-        tools:text="mul result"
-        android:textSize="20sp"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/mul_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/div_result_textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.631" />
+        app:layout_constraintVertical_bias="0.631"
+        tools:text="mul result" />
 
     <TextView
         android:id="@+id/plus_result_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="plus result"
         android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/div_result_textView"
         app:layout_constraintEnd_toStartOf="@+id/div_result_textView"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="plus result" />
 
     <TextView
         android:id="@+id/div_result_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="div result"
         android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/mul_result_textView"
         app:layout_constraintEnd_toStartOf="@+id/mul_result_textView"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/plus_result_textView" />
+        app:layout_constraintStart_toEndOf="@+id/plus_result_textView"
+        tools:text="div result" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="50sp"
         android:text="@string/four"
+        android:textSize="50sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView5"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
         app:layout_constraintHorizontal_bias="0.5"

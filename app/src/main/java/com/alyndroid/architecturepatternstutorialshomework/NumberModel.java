@@ -11,6 +11,7 @@ public class NumberModel {
     public int getFirstNum() {
         return firstNum;
     }
+
     public int getSecondNum() {
         return secondNum;
     }
